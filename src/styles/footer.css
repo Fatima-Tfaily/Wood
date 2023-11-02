@@ -1,0 +1,160 @@
+.Footer{
+    background-image: url("../images/background.jpg");
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.Social{
+    margin-left: 5%;
+}
+
+.contact{
+    margin-left: 40%;
+}
+
+.sous_title{
+    color:gainsboro;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.ul-footer{
+    list-style-type: none;
+}
+
+.li-footer{
+margin: 20px;
+}
+
+.footer_img{
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+    margin-right: 10px;
+}
+
+.footer_img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+}
+
+a p{
+    margin: auto;
+    font-size: 30px;
+}
+
+.footer_menu{
+    margin-left: 20%;
+}
+
+.footer_menu .ul-footer .li-footer a{
+    font-size: 35px;
+    margin: 10px;
+}
+
+.log a{
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+.footer_menu .ul-footer .li-footer:hover{
+    color:gainsboro;
+}
+.footer1{
+    background-color: rgb(12,94,202);
+}
+.made{
+    color: #bc9282;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+@media screen and (max-width:780px){
+    .Footer{
+        background-image: url("../images/background.jpg");
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+    
+    .Social{
+        margin: auto;
+    }
+    
+    .contact{
+        margin: auto;
+    }
+    
+    .sous_title{
+        color:gainsboro;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .ul-footer{
+        list-style-type: none;
+    }
+    
+    .li-footer{
+    margin: 20px;
+    }
+    
+    .footer_img{
+        width: 40px;
+        height: 40px;
+        filter: grayscale(100%);
+        margin-right: 10px;
+    }
+    
+    .footer_img:hover{
+        filter: grayscale(0%);
+        transform: scale(1.1);
+    }
+    
+    a{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    a p{
+        margin: auto;
+        font-size: 25px;
+    }
+    
+    .footer_menu .ul-footer .li-footer a{
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    .log a{
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    
+    .footer_menu .ul-footer .li-footer:hover{
+        color:gainsboro;
+    }
+    .footer1{
+        background-color: rgb(12,94,202);
+    }
+    .made{
+        color: #bc9282;
+        font-size: 20px;
+        text-align: center;
+        background-color: white;
+    }
+}
