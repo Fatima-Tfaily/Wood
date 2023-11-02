@@ -27,7 +27,7 @@ const redirectToTiktok = () => {
 };
 
 const Footer = () => {
-  const [phoneNumber, setPhoneNumber] = useState("81815057");
+  const [phoneNumber, setPhoneNumber] = useState("81815087");
   const link = `https://wa.me/${phoneNumber}`;
 
   const openChat = () => {
@@ -90,7 +90,7 @@ const Footer = () => {
                 }}
               >
                 <img src={whatsapp} className="footer_img" />
-                <p>76667527</p>
+                <p>81815087</p>
               </a>
             </li>
             <br />
