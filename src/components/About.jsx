@@ -9,9 +9,9 @@ const About = () => {
       <div className="about">
         <div className="content">
           <p>
-            I am the rare Lebanese designer Hassan Shehaytli who com the past
-            anbinesd the present with the finest design, time and distinction. I
-            have many beautiful works and I have a shop in Shmestar.
+            The rare Lebanese designer who combines the past and the present
+            with the finest design and time Distinguished artist Hassan
+            Shehitli, for those interested, external 81815087
           </p>
         </div>
         <div className="image">
